@@ -41,17 +41,15 @@ function About() {
             <div className="inline-flex items-center gap-2 mb-6">
               <div className="w-1 h-1 bg-black rounded-full"></div>
               <span className="text-10px font-bold uppercase tracking-[0.3em] text-zinc-400">
-                the digital architect
+                the builder
               </span>
             </div>
             <div className="space-y-5">
               <h3 className="text-3xl font-bold text-zinc-900 leading-tight tracking-tight max-w-2xl">
-                Building refined digital products with a focus on
+                Bringing a rare blend of business insight and technical execution
               </h3>
               <p className="text-zinc-500 text-base leading-relaxed max-w-xl">
-                I bridge the gap between design and high-level engineering.
-                Based in Navi Mumbai, I focus on creating digital experiences
-                that are as technically sound as they are visually intuitive.
+                I’ve managed e-commerce operations, HR, import/export, and overseas purchasing. Now, I’m channeling that multi-industry experience into full-stack development — building tools with impact.
               </p>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-10 py-8 border-y border-zinc-100">
