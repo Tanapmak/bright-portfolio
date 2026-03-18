@@ -1,7 +1,7 @@
 function ProjectCard({projectName, projectDesc, repo, links, cover}) {
   return (
     <div className="group cursor-pointer">
-      <div className="relative aspect-4/3 rounded-2xl overflow-hidden bg-gray-50 border border-gray-100 mb-5 transition-all duration-500 group-hover:shadow-xl group-hover:-translate-y-1">
+      <div className="relative aspect-4/3 rounded-2xl overflow-hidden bg-slate-50 border border-slate-100 mb-5 transition-all duration-500 group-hover:shadow-xl group-hover:-translate-y-1">
         <div className="absolute inset-0 p-4 flex items-center justify-center">
           <img
             src={cover}
@@ -9,11 +9,11 @@ function ProjectCard({projectName, projectDesc, repo, links, cover}) {
             className="w-full h-full object-contain drop-shadow-md transition-transform duration-700 ease-out group-hover:scale-105"
           />
         </div>
-        <div className="absolute inset-0 bg-black/5 flex items-center justify-center gap-3 transition-opacity duration-300 opacity-100 md:opacity-0 md:group-hover:opacity-100">
+        <div className="absolute inset-0 bg-sky-900/5 flex items-center justify-center gap-3 transition-opacity duration-300 opacity-100 md:opacity-0 md:group-hover:opacity-100">
           <div className="flex gap-2">
             <a
               href={repo}
-              class="p-3 bg-black text-white rounded-full hover:scale-110 active:scale-95 transition-all"
+              class="p-3 bg-sky-900 text-white rounded-full hover:scale-110 active:scale-95 transition-all"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +34,7 @@ function ProjectCard({projectName, projectDesc, repo, links, cover}) {
             </a>
             <a
               href={links}
-              class="p-3 bg-black text-white rounded-full hover:scale-110 active:scale-95 transition-all"
+              class="p-3 bg-sky-900 text-white rounded-full hover:scale-110 active:scale-95 transition-all"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +59,7 @@ function ProjectCard({projectName, projectDesc, repo, links, cover}) {
       </div>
       <div class="space-y-2 px-1">
         <div class="flex items-center justify-between">
-          <span class="text-[10px] font-black uppercase tracking-widest text-gray-400">
+          <span class="text-[10px] font-black uppercase tracking-widest text-slate-400">
             Development
           </span>
           <svg
@@ -72,15 +72,15 @@ function ProjectCard({projectName, projectDesc, repo, links, cover}) {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-arrow-up-right text-gray-300 group-hover:text-black transition-colors"
+            class="lucide lucide-arrow-up-right text-slate-300 group-hover:text-sky-900 transition-colors"
             aria-hidden="true"
           >
             <path d="M7 7h10v10"></path>
             <path d="M7 17 17 7"></path>
           </svg>
         </div>
-        <h4 class="text-lg font-bold text-black">{projectName}</h4>
-        <p class="text-xs text-gray-500 leading-relaxed line-clamp-2">
+        <h4 class="text-lg font-bold text-sky-800">{projectName}</h4>
+        <p class="text-xs text-slate-500 leading-relaxed line-clamp-2">
           {projectDesc}
         </p>
       </div>

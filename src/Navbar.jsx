@@ -8,9 +8,9 @@ function Navbar() {
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="flex justify-between items-center relative">
           <div className="flex flex-col group cursor-pointer">
-            <span className="font-extrabold text-xl uppercase tracking-tighter leading-none text-blue-950">
+            <span className="font-extrabold text-xl uppercase tracking-tighter leading-none text-sky-900">
               BRIGHT
-              <span className="text-zinc-400 group-hover:text-blue-950 transition-colors duration-500">
+              <span className="text-slate-400 group-hover:text-sky-900 transition-colors duration-500">
                 {" "}
                 KAMPANAT
               </span>
@@ -19,48 +19,48 @@ function Navbar() {
           <div className="hidden md:flex items-center gap-8">
             <a
               href="#about"
-              className="relative text-[12px] font-semibold uppercase tracking-widest text-zinc-500 hover:text-blue-950 transition-colors duration-300 group"
+              className="relative text-[12px] font-semibold uppercase tracking-widest text-slate-500 hover:text-sky-700 transition-colors duration-300 group"
             >
-              <span className="absolute -bottom-2 left-1/2 w-0 h-[1.5px] bg-black transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
+              <span className="absolute -bottom-2 left-1/2 w-0 h-[1.5px] bg-sky-700 transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
               about
             </a>
             <a
               href="#skills"
-              className="relative text-[12px] font-semibold uppercase tracking-widest text-zinc-500 hover:text-blue-950 transition-colors duration-300 group"
+              className="relative text-[12px] font-semibold uppercase tracking-widest text-slate-500 hover:text-sky-700 transition-colors duration-300 group"
             >
-              <span className="absolute -bottom-2 left-1/2 w-0 h-[1.5px] bg-black transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
+              <span className="absolute -bottom-2 left-1/2 w-0 h-[1.5px] bg-sky-700 transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
               skills
             </a>
             <a
               href="#projects"
-              className="relative text-[12px] font-semibold uppercase tracking-widest text-zinc-500 hover:text-blue-950 transition-colors duration-300 group"
+              className="relative text-[12px] font-semibold uppercase tracking-widest text-slate-500 hover:text-sky-700 transition-colors duration-300 group"
             >
-              <span className="absolute -bottom-2 left-1/2 w-0 h-[1.5px] bg-black transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
+              <span className="absolute -bottom-2 left-1/2 w-0 h-[1.5px] bg-sky-700 transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
               projects
             </a>
             <a
               href="#experience"
-              className="relative text-[12px] font-semibold uppercase tracking-widest text-zinc-500 hover:text-blue-950 transition-colors duration-300 group"
+              className="relative text-[12px] font-semibold uppercase tracking-widest text-slate-500 hover:text-sky-700 transition-colors duration-300 group"
             >
-              <span className="absolute -bottom-2 left-1/2 w-0 h-[1.5px] bg-black transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
+              <span className="absolute -bottom-2 left-1/2 w-0 h-[1.5px] bg-sky-700 transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
               experience
             </a>
             <a
               href="#connect"
-              className="relative text-[12px] font-semibold uppercase tracking-widest text-zinc-500 hover:text-blue-950 transition-colors duration-300 group"
+              className="relative text-[12px] font-semibold uppercase tracking-widest text-slate-500 hover:text-sky-700 transition-colors duration-300 group"
             >
-              <span className="absolute -bottom-2 left-1/2 w-0 h-[1.5px] bg-black transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
+              <span className="absolute -bottom-2 left-1/2 w-0 h-[1.5px] bg-sky-700 transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
               connect
             </a>
           </div>
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden p-2 text-black transition-colors rounded-lg hover:bg-zinc-50"
+            className="md:hidden p-2 text-sky-900 transition-colors rounded-lg hover:bg-slate-100"
           >
             {isOpen ? (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="lucide lucide-menu transition-transform duration-300 rotate-90"
+                className="lucide lucide-menu transition-transform duration-300 rotate-90 text-sky-900"
                 width="22"
                 height="22"
                 viewBox="0 0 640 640"
@@ -78,7 +78,7 @@ function Navbar() {
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                className="lucide lucide-menu transition-transform duration-300 rotate-0"
+                className="lucide lucide-menu transition-transform duration-300 rotate-0 text-sky-900"
                 aria-hidden="true"
               >
                 <path d="M4 5h16"></path>
@@ -88,7 +88,7 @@ function Navbar() {
             )}
           </button>
           <div
-            className={`absolute top-full right-0 mt-4 w-56 bg-white border border-zinc-100 rounded-2xl shadow-xl transition-all duration-300 ease-out origin-top-right 
+            className={`absolute top-full right-0 mt-4 w-56 bg-white border border-slate-100 rounded-2xl shadow-xl transition-all duration-300 ease-out origin-top-right 
   ${
     isOpen
       ? "opacity-100 scale-100 translate-y-0 pointer-events-auto" // ถ้าเปิด (true)
@@ -97,32 +97,32 @@ function Navbar() {
           >
             <div className="flex flex-col p-3">
               <a
-                href="#"
-                className="px-4 py-3 text-sm font-bold tracking-tight text-zinc-500 hover:text-black hover:bg-zinc-50 rounded-xl transition-all"
+                href="#about"
+                className="px-4 py-3 text-sm font-bold tracking-tight text-slate-500 hover:text-sky-700 hover:bg-slate-50 rounded-xl transition-all"
               >
                 About
               </a>
               <a
-                href="#"
-                className="px-4 py-3 text-sm font-bold tracking-tight text-zinc-500 hover:text-black hover:bg-zinc-50 rounded-xl transition-all"
+                href="#skills"
+                className="px-4 py-3 text-sm font-bold tracking-tight text-slate-500 hover:text-sky-700 hover:bg-slate-50 rounded-xl transition-all"
               >
                 Skills
               </a>
               <a
-                href="#"
-                className="px-4 py-3 text-sm font-bold tracking-tight text-zinc-500 hover:text-black hover:bg-zinc-50 rounded-xl transition-all"
+                href="#projects"
+                className="px-4 py-3 text-sm font-bold tracking-tight text-slate-500 hover:text-sky-700 hover:bg-slate-50rounded-xl transition-all"
               >
                 Projects
               </a>
               <a
-                href="#"
-                className="px-4 py-3 text-sm font-bold tracking-tight text-zinc-500 hover:text-black hover:bg-zinc-50 rounded-xl transition-all"
+                href="#experience"
+                className="px-4 py-3 text-sm font-bold tracking-tight text-slate-500 hover:text-sky-700 hover:bg-slate-50 rounded-xl transition-all"
               >
                 Experience
               </a>
               <a
-                href="#"
-                className="px-4 py-3 text-sm font-bold tracking-tight text-zinc-500 hover:text-black hover:bg-zinc-50 rounded-xl transition-all"
+                href="#connect"
+                className="px-4 py-3 text-sm font-bold tracking-tight text-slate-500 hover:text-sky-700 hover:bg-slate-50 rounded-xl transition-all"
               >
                 Connect
               </a>

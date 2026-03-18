@@ -7,29 +7,29 @@ function Introduction() {
         className="absolute inset-0 opacity-[0.03] pointer-events-none"
         style={{
           backgroundImage:
-            "linear-gradient(rgb(0, 0, 0) 1px, transparent 1px), linear-gradient(90deg, rgb(0, 0, 0) 1px, transparent 1px)",
+            "linear-gradient(rgb(0,0,0) 1px, transparent 1px), linear-gradient(90deg, rgb(0,0,0) 1px, transparent 1px)",
           backgroundSize: "50px 50px",
         }}
       ></div>
       <div className="max-w-7xl mx-auto px-6 md:px-12 w-full relative z-10">
         <div className="mb-10 transition-all duration-1000 opacity-100 translate-y-0">
-          <div className="inline-flex items-center gap-3 px-3 py-1 border border-zinc-200 rounded-full bg-zinc-50/80 backdrop-blur-sm">
+          <div className="inline-flex items-center gap-3 px-3 py-1 border border-slate-200 rounded-full bg-slate-50/80 backdrop-blur-sm">
             <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-sky-500"></span>
             </span>
             <p className="text-[10px] font-mono font-bold uppercase tracking-[0.15em] text-zinc-600">
-              Available for Projects
+              Available for Works
             </p>
           </div>
         </div>
         <div className="grid lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-9">
             <div className="space-y-2 mb-8 transition-all duration-1000 delay-300 opacity-100 translate-x-0">
-              <h1 className="text-6xl md:text-8xl lg:text-9xl font-black text-black tracking-tighter leading-[0.85]">
+              <h1 className="text-6xl md:text-8xl lg:text-9xl font-black text-sky-900 tracking-tighter leading-[0.85]">
                 BRIGHT
                 <br />
-                <span className="text-zinc-400 hover:text-black transition-colors duration-500 cursor-default">
+                <span className="text-slate-400 hover:text-sky-900 transition-colors duration-500 cursor-default">
                   KAMPANAT
                 </span>
               </h1>
@@ -38,13 +38,13 @@ function Introduction() {
         </div>
         <div className="flex flex-col md:flex-row md:items-center gap-6 md:gap-12 transition-all duration-1000 delay-500 opacity-100 translate-y-0">
           <div className="flex items-center gap-4">
-            <div className="w-12 h-1 bg-black"></div>
-            <h2 className="text-sm md:text-lg font-bold uppercase tracking-[0.3em] text-black">
+            <div className="w-12 h-px bg-black"></div>
+            <h2 className="text-sm md:text-lg font-bold uppercase tracking-[0.3em] text-sky-900">
               Business minded full-stack developers
             </h2>
           </div>
           <div>
-            <p className="text-zinc-500 text-sm md:text-base max-w-sm leading-relaxed border-l border-zinc-100 pl-6">
+            <p className="text-slate-500 text-sm md:text-base max-w-sm leading-relaxed border-l border-zinc-100 pl-6">
               A Full Stack Developer packed with 360° view of how organizations
               really work. Creating software that doesn’t just run — but solves
               real business & operational pain points.
@@ -54,7 +54,7 @@ function Introduction() {
         <div className="mt-12 flex flex-row flex-wrap gap-4 transition-all duration-1000 delay-700 opacity-100">
           <a
             href="#"
-            className="flex-1 md:flex-initial min-w-180px group relative px-8 py-4 bg-black text-white rounded-full overflow-hidden transition-all duration-300 hover:pr-10 text-center flex items-center justify-center"
+            className="flex-1 md:flex-initial min-w-180px group relative px-8 py-4 bg-sky-900 text-white rounded-full overflow-hidden transition-all duration-300 hover:pr-10 text-center flex items-center justify-center"
           >
             <div className="relative z-10 flex items-center gap-2 text-xs font-black uppercase tracking-widest">
               learn more
@@ -76,7 +76,7 @@ function Introduction() {
               </svg>
             </div>
           </a>
-          <button className="flex-1 md:flex-initial min-w-180px flex items-center justify-center gap-2 px-8 py-4 bg-white border text-black rounded-full text-xs font-black uppercase tracking-widest border-black hover:bg-zinc-50 transition-all">
+          <button className="flex-1 md:flex-initial min-w-180px flex items-center justify-center gap-2 px-8 py-4 bg-white border text-sky-900 rounded-full text-xs font-black uppercase tracking-widest border-sky-900 hover:bg-slate-50 transition-all">
             resume
             <svg
               xmlns="http://www.w3.org/2000/svg"
