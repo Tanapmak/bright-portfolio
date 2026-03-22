@@ -79,7 +79,7 @@ function About() {
                     <span className="text-[10px] font-bold px-3 py-1 bg-slate-100 text-slate-500 rounded border border-zinc-100 uppercase">Postgresql</span>
                     <span className="text-[10px] font-bold px-3 py-1 bg-slate-100 text-slate-500 rounded border border-zinc-100 uppercase">Tailwind</span>
                 </div>
-                <a href="#" className="group flex items-center gap-3 text-xs font-bold uppercase tracking-widest text-sky-800 border-b-2 border-sky-800 pb-1 hover:text-slate-500 hover:border-slate-200 transition-all">
+                <a href="#connect" className="group flex items-center gap-3 text-xs font-bold uppercase tracking-widest text-sky-800 border-b-2 border-sky-800 pb-1 hover:text-slate-500 hover:border-slate-200 transition-all">
                     get in touch
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" class="lucide lucide-arrow-right group-hover:translate-x-1 transition-transform" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
                 </a>
