@@ -53,7 +53,7 @@ function Introduction() {
         </div>
         <div className="mt-12 flex flex-row flex-wrap gap-4 transition-all duration-1000 delay-700 opacity-100">
           <a
-            href="#"
+            href="#about"
             className="flex-1 md:flex-initial min-w-180px group relative px-8 py-4 bg-sky-900 text-white rounded-full overflow-hidden transition-all duration-300 hover:pr-10 text-center flex items-center justify-center"
           >
             <div className="relative z-10 flex items-center gap-2 text-xs font-black uppercase tracking-widest">
