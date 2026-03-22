@@ -17,7 +17,7 @@ function Projects() {
                         projectDesc="A full stack E-Commerce Livestream calendar management web application"
                         repo="https://github.com/Tanapmak/schedu-le"
                         links=""
-                        cover="src/assets/livestream-mgmt-2-screenshot.png"
+                        cover="public/livestream-mgmt-2-screenshot.png"
                     />
                 </div>
             </div>
