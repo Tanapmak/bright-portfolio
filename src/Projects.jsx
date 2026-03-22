@@ -16,7 +16,7 @@ function Projects() {
                         projectName="Schedu-le"
                         projectDesc="A full stack E-Commerce Livestream calendar management web application"
                         repo="https://github.com/Tanapmak/schedu-le"
-                        links=""
+                        links="https://schedu-le.vercel.app/"
                         cover="/livestream-mgmt-2-screenshot.png"
                     />
                 </div>
