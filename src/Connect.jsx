@@ -21,7 +21,7 @@ function Connect() {
         </div>
         <div className="space-y-0">
           <a
-            href="mailto:adinahawaldar895@gmail.com"
+            href="mailto:kampanat.int@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
             class="group flex items-center py-6 border-b border-slate-100 hover:border-sky-700 transition-all duration-500 overflow-hidden"
@@ -59,7 +59,7 @@ function Connect() {
             </div>
           </a>
           <a
-            href="https://linkedin.com/in/adina-hawaldar-17az6"
+            href="https://www.linkedin.com/in/kampanat-intanan-b093a416a/"
             target="_blank"
             rel="noopener noreferrer"
             class="group flex items-center py-6 border-b border-slate-100 hover:border-sky-900 transition-all duration-500 overflow-hidden"
@@ -98,7 +98,7 @@ function Connect() {
             </div>
           </a>
           <a
-            href="https://github.com/adinahawaldar"
+            href="https://github.com/Tanapmak"
             target="_blank"
             rel="noopener noreferrer"
             class="group flex items-center py-6 border-b border-slate-100 hover:border-sky-700 transition-all duration-500 overflow-hidden"
@@ -135,57 +135,16 @@ function Connect() {
               </svg>
             </div>
           </a>
-          <a
-            href="https://figma.com/@adinahawaldar"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="group flex items-center py-6 border-b border-slate-100 hover:border-sky-700 transition-all duration-500 overflow-hidden"
-          >
-            <span class="text-[10px] font-mono text-slate-300 mr-8 group-hover:text-sky-900 transition-colors">
-              04
-            </span>
-            <div class="relative flex-1 overflow-hidden h-8">
-              <div class="flex flex-col transition-transform duration-500 ease-in-out group-hover:-translate-y-8">
-                <span class="h-8 flex items-center text-lg font-bold uppercase tracking-widest text-slate-500">
-                  Figma
-                </span>
-                <span class="h-8 flex items-center text-lg font-bold uppercase tracking-widest text-sky-900 italic">
-                  Canvas —&gt;
-                </span>
-              </div>
-            </div>
-            <div class="text-slate-300 group-hover:text-sky-900 group-hover:rotate-12 transition-all duration-500">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="lucide lucide-figma"
-                aria-hidden="true"
-              >
-                <path d="M5 5.5A3.5 3.5 0 0 1 8.5 2H12v7H8.5A3.5 3.5 0 0 1 5 5.5z"></path>
-                <path d="M12 2h3.5a3.5 3.5 0 1 1 0 7H12V2z"></path>
-                <path d="M12 12.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 1 1-7 0z"></path>
-                <path d="M5 19.5A3.5 3.5 0 0 1 8.5 16H12v3.5a3.5 3.5 0 1 1-7 0z"></path>
-                <path d="M5 12.5A3.5 3.5 0 0 1 8.5 9H12v7H8.5A3.5 3.5 0 0 1 5 12.5z"></path>
-              </svg>
-            </div>
-          </a>
         </div>
         <div className="mt-20 flex flex-col items-start">
           <p class="text-slate-400 text-xs font-medium mb-6 uppercase tracking-[0.2em]">
             Based in Bangkok Thailand
           </p>
           <a
-            href="mailto:adinahawaldar895@gmail.com"
+            href="mailto:kampanat.int@gmail.com"
             className="group relative inline-flex items-center gap-4 text-xl md:text-2xl font-black uppercase tracking-tighter text-sky-900"
           >
-            kampanat.1455@gmail.com
+            kampanat.int@gmail.com
             <div className="w-12 h-12 rounded-full border border-slate-200 flex items-center justify-center group-hover:bg-sky-900 group-hover:text-white transition-all duration-500">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

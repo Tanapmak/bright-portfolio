@@ -13,18 +13,11 @@ function Projects() {
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-12">
                     <ProjectCard 
-                        projectName="Snippit"
-                        projectDesc="An open-source SaaS starter registry"
-                        repo="https://github.com/adinahawaldar/snippit"
-                        links="https://snippit-dev.vercel.app/"
-                        cover="src/assets/profile.jpg"
-                    />
-                    <ProjectCard 
                         projectName="Schedu-le"
-                        projectDesc="Livestream management full stack web application"
-                        repo="https://github.com/adinahawaldar/snippit"
-                        links="https://snippit-dev.vercel.app/"
-                        cover="src/assets/profile.jpg"
+                        projectDesc="A full stack E-Commerce Livestream calendar management web application"
+                        repo="https://github.com/Tanapmak/schedu-le"
+                        links=""
+                        cover="src/assets/livestream-mgmt-2-screenshot.png"
                     />
                 </div>
             </div>
