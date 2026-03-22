@@ -1,6 +1,11 @@
 
 
 function Introduction() {
+  const handleDownload = () => {
+    const fileId = "d/14twOZYWucC8KXLHc07R5dtKo-2tBnBuY"
+    window.location.href = `https://drive.google.com/uc?export=download&id=${fileId}`;
+  }
+
   return (
     <section className="relative min-h-screen flex items-center bg-white overflow-hidden pt-20">
       <div
@@ -76,7 +81,7 @@ function Introduction() {
               </svg>
             </div>
           </a>
-          <button className="flex-1 md:flex-initial min-w-180px flex items-center justify-center gap-2 px-8 py-4 bg-white border text-sky-900 rounded-full text-xs font-black uppercase tracking-widest border-sky-900 hover:bg-slate-50 transition-all">
+          <button onClick={handleDownload} className="flex-1 md:flex-initial min-w-180px flex items-center justify-center gap-2 px-8 py-4 bg-white border text-sky-900 rounded-full text-xs font-black uppercase tracking-widest border-sky-900 hover:bg-slate-50 transition-all">
             resume
             <svg
               xmlns="http://www.w3.org/2000/svg"
