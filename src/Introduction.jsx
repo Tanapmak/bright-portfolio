@@ -2,7 +2,7 @@
 
 function Introduction() {
   const handleDownload = () => {
-    const fileId = "d/14twOZYWucC8KXLHc07R5dtKo-2tBnBuY"
+    const fileId = "14twOZYWucC8KXLHc07R5dtKo-2tBnBuY"
     window.location.href = `https://drive.google.com/uc?export=download&id=${fileId}`;
   }
 
