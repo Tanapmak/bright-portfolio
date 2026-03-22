@@ -1,4 +1,5 @@
 import { useState } from "react";
+import profilePic from "/src/assets/profile.jpg"
 
 function About() {
   return (
@@ -22,7 +23,7 @@ function About() {
               <div className="absolute -top-3 -left-3 w-16 h-16 border-t-2 border-l-2 border-zinc-100 -z-10 group-hover:-translate-x-1 group-hover:-translate-y-1 transition-transform"></div>
               <div className="relative aspect-4/5 rounded-xl overflow-hidden shadow-sm border border-zinc-100 bg-zinc-50">
                 <img
-                  src="src/assets/profile.jpg"
+                  src={profilePic}
                   alt="bright-kampanat"
                   className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
                 />
