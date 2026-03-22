@@ -16,7 +16,7 @@ function ExperienceCard({ duration, location, company, position, jd, tools}) {
           <p className="text-sm font-bold text-sky-800">{location}</p>
         </div>
       </div>
-      <div className="md:col-span-9 border-l border-slate-100 md:pl-10">
+      <div className="md:col-span-9 md:border-l border-slate-100 md:pl-10">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-4">
           <div>
             <h3 class="text-xl font-black uppercase tracking-tight text-sky-900 leading-tight">
