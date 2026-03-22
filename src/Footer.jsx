@@ -5,7 +5,7 @@ function Footer() {
         <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-end">
           <div class="md:col-span-4">
             <h3 class="text-base font-black uppercase tracking-tighter mb-2 text-sky-900">
-              Kampanat Intanan
+              Kampanat Intanan (Bright)
             </h3>
             <p class="text-[11px] font-mono text-slate-500 font-bold uppercase tracking-widest leading-loose">
               Business Solution &amp; <br /> Full-Stack Developer
